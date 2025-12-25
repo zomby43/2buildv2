@@ -205,6 +205,31 @@
   .framed-shell--glass::after {
     content: none;
   }
+
+  /* Responsive adjustments for screens below 1100px */
+  @media (max-width: 1100px) {
+    /* Hide rails and diamonds on smaller screens */
+    .frame-rail,
+    .frame-diamond {
+      display: none;
+    }
+
+    /* Full width container on smaller screens */
+    .framed-shell {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: clamp(20px, 5vw, 32px);
+      border-left: none;
+      border-right: none;
+    }
+
+    /* Reduce vertical padding on smaller screens */
+    .frame-rails {
+      padding: clamp(20px, 4vw, 32px) 0;
+    }
+  }
 }
 
 @layer utilities {

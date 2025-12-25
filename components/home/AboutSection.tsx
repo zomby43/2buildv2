@@ -20,7 +20,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="relative w-full py-0 bg-neutral-50/80 border-y border-neutral-800/10 px-4 flex justify-center overflow-visible"
+      className="relative w-full py-0 bg-neutral-50/80 border-y border-neutral-800/10 px-0 desktop:px-4 flex justify-center overflow-visible"
     >
       <div className="frame-rails frame-rails--stacked">
         <span className="frame-rail frame-rail--top" />

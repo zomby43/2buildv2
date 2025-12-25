@@ -35,13 +35,13 @@ function StatItem({
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.2 }}
     >
-      <Icon className="w-6 h-6 text-white opacity-80" />
+      <Icon className="w-6 h-6 text-white opacity-100" />
       <div className="text-center">
-        <div className="text-4xl font-bold text-white drop-shadow-lg">
+        <div className="text-4xl font-bold text-white drop-shadow-[0_8px_16px_rgba(0,0,0,0.6)]">
           {count}
           {suffix}
         </div>
-        <div className="mt-1 text-sm text-white opacity-90">{label}</div>
+        <div className="mt-1 text-sm text-white opacity-100">{label}</div>
       </div>
     </motion.div>
   );
@@ -49,7 +49,7 @@ function StatItem({
 
 export function Hero() {
   return (
-    <section className="relative w-full overflow-visible bg-gradient-subtle py-0 px-4 flex justify-center">
+    <section className="relative w-full overflow-visible bg-gradient-subtle py-0 px-0 desktop:px-4 flex justify-center">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-100 blur-xs"
@@ -57,7 +57,7 @@ export function Hero() {
       />
 
       {/* Aurora effect */}
-      <div className="absolute inset-0 z-10 opacity-50">
+      <div className="absolute inset-0 z-10 opacity-30">
         <Aurora
           colorStops={["#0061dc", "#e42927", "#0061dc"]}
           amplitude={0.8}
@@ -104,7 +104,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="text-5xl font-bold tracking-tight text-neutral-100 sm:text-6xl lg:text-7xl text-balance"
+              className="text-4xl font-bold tracking-tight text-neutral-100 sm:text-5xl lg:text-6xl xl:text-7xl text-balance"
             >
               {HERO_CONTENT.headline}
             </motion.h1>
@@ -151,7 +151,7 @@ export function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 1.1 }}
-              className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-3 text-neutral-800"
+              className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-3"
             >
               <StatItem
                 value={10}

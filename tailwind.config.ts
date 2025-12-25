@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'desktop': '1100px',
+      },
       colors: {
         neutral: {
           50: '#fafafa',

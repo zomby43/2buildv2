@@ -37,7 +37,7 @@ export function ServiceGrid() {
   return (
     <section
       id="servicios"
-      className="relative w-full py-0 bg-gradient-to-b from-white to-[#e52a28] overflow-visible px-4 flex justify-center"
+      className="relative w-full py-0 bg-gradient-to-b from-white to-[#e52a28] overflow-visible px-0 desktop:px-4 flex justify-center"
     >
       {/* Particles Background */}
       <div className="absolute inset-0">

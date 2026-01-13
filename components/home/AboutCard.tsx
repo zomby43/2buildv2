@@ -32,7 +32,7 @@ export function AboutCard({ card }: AboutCardProps) {
       className="group card-modern p-8"
     >
       {/* Icon */}
-      <div className="mb-6 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-neutral-100 text-neutral-900 group-hover:bg-gradient-to-br group-hover:from-brand-red group-hover:to-brand-blue group-hover:text-white transition-all duration-300">
+      <div className="mb-6 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-neutral-100 text-neutral-900 group-hover:bg-brand-red group-hover:text-white transition-all duration-300">
         <IconComponent className="w-6 h-6" />
       </div>
 

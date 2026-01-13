@@ -3,6 +3,7 @@
 import React, { useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 import { Service } from '@/types/service';
 import { Button } from '@/components/ui/Button';
 import {
@@ -94,7 +95,7 @@ export function ServiceModal({ service, open, onClose }: ServiceModalProps) {
 
           <div className="p-8">
             {/* Icon badge */}
-            <div className="mb-4 inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-brand-red to-brand-blue text-white">
+            <div className="mb-4 inline-flex items-center justify-center w-14 h-14 rounded-full bg-neutral-100 text-neutral-900">
               <Icon className="w-7 h-7" />
             </div>
 
@@ -102,6 +103,17 @@ export function ServiceModal({ service, open, onClose }: ServiceModalProps) {
             <h3 className="text-3xl font-bold text-neutral-900 mb-6">
               {service.title}
             </h3>
+
+            {/* Image */}
+            <div className="mb-6 relative w-full h-64 rounded-xl overflow-hidden">
+              <Image
+                src={service.image}
+                alt={service.title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 672px"
+              />
+            </div>
 
             {/* Description */}
             <div className="prose prose-neutral max-w-none">

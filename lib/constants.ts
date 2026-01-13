@@ -18,7 +18,7 @@ export const CONTACT_INFO = {
 } as const;
 
 export const HERO_CONTENT = {
-  headline: 'Somos desarrolladores de Infraestructura Física Critica para tu Negocio',
+  headline: 'Somos desarrolladores de Infraestructura Física Crítica para tu Negocio',
   subtitle: 'Desde la selección del terreno hasta la puesta en marcha, aportamos experiencia técnica, flexibilidad y especialistas con vasta experiencia en el sector, colaborando con grandes empresas de la región.',
   ctaText: 'Más Información',
 } as const;

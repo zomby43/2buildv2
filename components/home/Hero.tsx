@@ -57,7 +57,7 @@ export function Hero() {
       />
 
       {/* Aurora effect */}
-      <div className="absolute inset-0 z-10 opacity-30">
+      <div className="absolute inset-0 z-10 opacity-55">
         <Aurora
           colorStops={["#0061dc", "#e42927", "#0061dc"]}
           amplitude={0.8}

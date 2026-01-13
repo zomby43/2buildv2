@@ -18,13 +18,13 @@ export function Header() {
       className="sticky top-0 z-50 border-b border-neutral-800/15 bg-white/80 backdrop-blur-xl"
     >
       <div className="section-container">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center group">
+          <Link href="/" className="flex items-center justify-center group">
             <img
               src="/images/logo.svg"
               alt="2Build Logo"
-              className="h-14 w-auto group-hover:scale-105 transition-transform"
+              className="h-20 w-auto transition-transform"
             />
           </Link>
 
@@ -35,12 +35,6 @@ export function Header() {
               className="text-sm font-medium text-neutral-600 hover:text-brand-blue transition-colors"
             >
               Inicio
-            </Link>
-            <Link
-              href="/servicios"
-              className="text-sm font-medium text-neutral-600 hover:text-brand-blue transition-colors"
-            >
-              Servicios
             </Link>
             <Link
               href="/proyectos"
@@ -89,13 +83,6 @@ export function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Inicio
-              </Link>
-              <Link
-                href="/servicios"
-                className="block py-2 text-base font-medium text-neutral-900 hover:text-neutral-600 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Servicios
               </Link>
               <Link
                 href="/proyectos"

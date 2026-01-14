@@ -17,14 +17,16 @@ export function Header() {
       transition={{ duration: 0.5 }}
       className="sticky top-0 z-50 border-b border-neutral-800/15 bg-white/80 backdrop-blur-xl"
     >
-      <div className="section-container">
-        <div className="flex h-20 items-center justify-between">
+      <div className="w-[min(98%,1600px)] mx-auto px-0 desktop:px-4">
+        <div className="flex h-20 items-center justify-between px-4 desktop:px-0">
           {/* Logo */}
           <Link href="/" className="flex items-center justify-center group">
-            <img
+            <motion.img
               src="/images/logo.svg"
               alt="2Build Logo"
-              className="h-20 w-auto transition-transform"
+              className="h-20 w-auto"
+              whileHover={{ scale: 1.03 }}
+              transition={{ duration: 0.2 }}
             />
           </Link>
 
@@ -76,7 +78,7 @@ export function Header() {
             transition={{ duration: 0.2 }}
             className="md:hidden border-t border-neutral-800/15 bg-white"
           >
-            <div className="section-container py-4 space-y-3">
+            <div className="w-[min(98%,1600px)] mx-auto px-4 py-4 space-y-3">
               <Link
                 href="/"
                 className="block py-2 text-base font-medium text-neutral-900 hover:text-neutral-600 transition-colors"

@@ -18,17 +18,17 @@ export const CONTACT_INFO = {
 } as const;
 
 export const HERO_CONTENT = {
-  headline: 'Somos desarrolladores de Infraestructura Física Crítica para tu Negocio',
-  subtitle: 'Desde la selección del terreno hasta la puesta en marcha, aportamos experiencia técnica, flexibilidad y especialistas con vasta experiencia en el sector, colaborando con grandes empresas de la región.',
-  ctaText: 'Más Información',
+  headline: 'Diseñamos infraestructura física crítica para tu negocio',
+  subtitle: 'Desde la selección del terreno hasta la puesta en marcha, aportamos experiencia técnica, flexibilidad y contamos con especialistas con vasta experiencia en el sector, colaborando con grandes empresas de la región.',
+  ctaText: 'Más información',
 } as const;
 
 export const ABOUT_SECTION = {
-  title: 'Experiencia Técnica Especializada, Flexible y Versátil con una visión estratégica',
+  title: 'Experiencia técnica especializada, flexible y versátil con una visión estratégica',
   subtitle: '2Build, 10 años de experiencia en soluciones efectivas y sostenibles.',
 } as const;
 
 export const SERVICES_SECTION = {
-  title: 'Áreas de Nuestra Consultoría',
-  description: 'Due Diligence, Test Fit, Arquitectura, Proyectos de infraestructura y diseño tanto eléctrico y/o mecánico, BMS, Comisionamiento, Seguridad Física y Acompañamiento a Procesos de Certificación.',
+  title: 'Áreas de nuestra consultoría',
+  description: 'Due Diligence, Test Fit, Arquitectura, Proyectos de infraestructura y diseño tanto eléctrico y/o mecánico, BMS, Comisionamiento, Seguridad física y Acompañamiento a procesos de certificación.',
 } as const;

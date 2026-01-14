@@ -4,7 +4,7 @@ export const services: Service[] = [
   {
     id: '1',
     slug: 'due-diligence',
-    title: 'Due Diligence - Técnica',
+    title: 'Due diligence - técnica',
     fullDescription: 'Evaluamos a fondo cada proyecto desde el diseño hasta su ejecución, identificando riesgos y asegurando su viabilidad técnica y operativa. Nuestro enfoque garantiza que cada paso esté alineado con los estándares más altos, siendo clave para proyectos críticos como data centers.',
     image: '/images/consultoria/duediligence.jpg',
     order: 1,
@@ -13,7 +13,7 @@ export const services: Service[] = [
   {
     id: '2',
     slug: 'test-fit',
-    title: 'Test Fit',
+    title: 'Test fit',
     fullDescription: 'Realizamos análisis detallados para evaluar la viabilidad de diseños y espacios en función de los requerimientos técnicos de cada proyecto. Este servicio asegura una planificación precisa, optimizando recursos y garantizando que las instalaciones críticas, como data centers, cumplan con las necesidades operativas desde el inicio.',
     image: '/images/consultoria/testfit.jpg',
     order: 2,
@@ -40,7 +40,7 @@ export const services: Service[] = [
   {
     id: '5',
     slug: 'acompanamiento-certificacion',
-    title: 'Acompañamiento en Certificación',
+    title: 'Acompañamiento en certificación',
     fullDescription: 'Brindamos asesoría experta en procesos de certificación para garantizar que cada proyecto cumpla con los estándares nacionales e internacionales. Nuestro equipo guía a nuestros clientes desde la preparación inicial hasta la obtención de las certificaciones requeridas, asegurando calidad, seguridad y eficiencia operativa.',
     image: '/images/consultoria/certificacion.jpg',
     order: 5,
@@ -49,7 +49,7 @@ export const services: Service[] = [
   {
     id: '6',
     slug: 'seguridad-fisica',
-    title: 'Seguridad Física',
+    title: 'Seguridad física',
     fullDescription: 'Diseñamos e implementamos soluciones avanzadas de seguridad física adaptadas a ambientes críticos. Desde el control de acceso hasta la protección perimetral, nuestras estrategias garantizan la integridad de las instalaciones y la continuidad operativa de proyectos como data centers.',
     image: '/images/consultoria/seguridad.jpg',
     order: 6,

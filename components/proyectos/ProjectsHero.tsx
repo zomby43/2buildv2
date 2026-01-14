@@ -6,10 +6,10 @@ import { Construction, ArrowLeft } from 'lucide-react';
 
 export function ProjectsHero() {
   return (
-    <section className="relative w-full overflow-visible bg-[#0661df] py-0 px-0 desktop:px-4 flex justify-center min-h-[70vh]">
+    <section className="relative w-full overflow-visible bg-[#0661df] py-0 px-0 desktop:px-4 flex justify-center min-h-[70vh]" style={{ paddingTop: 0, paddingBottom: 0 }}>
       {/* Background image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-100 blur-xs"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60 blur-xs"
         style={{ backgroundImage: "url(/images/dc2.png)" }}
       />
 
@@ -17,15 +17,7 @@ export function ProjectsHero() {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white" />
 
       {/* Content */}
-      <div className="frame-rails frame-rails--transparent frame-rails--no-top-diamonds">
-        <span className="frame-rail frame-rail--top" />
-        <span className="frame-rail frame-rail--bottom" />
-        <span className="frame-rail frame-rail--left" />
-        <span className="frame-rail frame-rail--right" />
-        <span className="frame-diamond frame-diamond--bl" />
-        <span className="frame-diamond frame-diamond--br" />
-
-        <div className="framed-shell framed-shell--transparent relative z-20 flex flex-col items-center justify-center text-center py-24">
+      <div className="relative z-20 flex flex-col items-center justify-center text-center py-24 px-4 max-w-4xl mx-auto">
           {/* Icon animado */}
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
@@ -46,7 +38,7 @@ export function ProjectsHero() {
             className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm px-4 py-2"
           >
             <span className="mr-2 text-brand-red">●</span>
-            <span className="text-sm font-medium text-white">En Construcción</span>
+            <span className="text-sm font-medium text-white">En construcción</span>
           </motion.div>
 
           {/* Headline */}
@@ -92,7 +84,7 @@ export function ProjectsHero() {
               size="lg"
             >
               <ArrowLeft className="mr-2 w-5 h-5" />
-              Volver al Inicio
+              Volver al inicio
             </Button>
             <Button
               href={`mailto:contacto@2build.cl`}
@@ -102,7 +94,6 @@ export function ProjectsHero() {
               Contactar
             </Button>
           </motion.div>
-        </div>
       </div>
     </section>
   );

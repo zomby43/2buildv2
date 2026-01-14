@@ -17,7 +17,7 @@ export function Footer() {
               />
             </div>
             <p className="text-neutral-600 max-w-md">
-              Desarrolladores de Infraestructura Física Crítica para Data Centers.
+              Diseñamos infraestructura física crítica para data centers.
               10 años de experiencia en soluciones efectivas y sostenibles.
             </p>
           </div>
